@@ -19,7 +19,17 @@ export default function SWList() {
 
   return (
     <div className="people">
-      <SWCard name={people.name} />
+      {people.map(ppl => {
+        return (
+          <SWCard
+            key={ppl.name}
+            name={ppl.name}
+            gender={ppl.gender}
+            height={ppl.height}
+            mass={ppl.mass}
+          />
+        );
+      })}
     </div>
   );
 }
