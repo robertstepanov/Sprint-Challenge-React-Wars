@@ -1,8 +1,26 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+
 /* write your parent styles in here for your App.js */
+
+/* .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: yellow;
+  width: 400px;
+  margin: 2rem auto;
+  flex-direction: row;
+} */
+
+/* .card-wrapper {
+  display: flex;
+  flex-direction: row;
+} */
