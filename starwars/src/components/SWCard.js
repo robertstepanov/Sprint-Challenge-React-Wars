@@ -3,12 +3,11 @@ import styled from "styled-components";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 
 const BodyWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 500px;
+  max-width: 500px;
   background: lightyellow;
   opacity: 0.8;
   margin: 2rem auto;
+  padding: 2rem 0;
 `;
 
 // const CardWrapper = styled.div`
